@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+    nav{
+    width: 100%;
+    background-color: black;
+    height: 80px;
+    line-height: 80px;
+    padding: 0px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.box-hehe{
+    display: flex;
+}
+.logo img{
+    width: auto;
+    height:2rem;
+    padding: 2px 20px;
+    margin:0;
+    margin-top: 20px;
+}
+.logo a{
+    font-size: 30px;
+    color: skyblue;
+    font-weight: bold;
+}
+a{
+    text-decoration: none;
+    color: white;
+    font-size: 17px;
+    transition: 0.5s all ease;
+    margin-right: 2rem;
+}
+ul{
+    margin: 0px;
+}
+ul li{
+    float: left;
+    padding: 0px 10px;
+    list-style: none;
+}
+ul li a:hover{
+    color: #87ceeb;
+}

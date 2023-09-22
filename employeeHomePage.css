@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+img{
+    width: auto;
+    height: 80vh;
+    margin-left: 25%;
+}
+.body-container{
+    display: flex;
+    gap: 4rem;
+}
+.sidebar{
+    background-color: black;
+    height: 95vh;
+    width: 15%;
+    color:white;
+    display: flex;
+
+}
+.lists li {
+    display: flex;
+    flex-direction: column;
+    margin-top: 3rem;
+}
+.apply-box{
+    display: flex;
+    flex-direction: column;
+    margin-top: 2%;
+    background-color: black;
+    width: fit-content;
+    height: fit-content;
+    padding: 2rem;
+    color: white;
+}
